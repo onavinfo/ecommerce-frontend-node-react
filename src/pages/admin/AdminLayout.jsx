@@ -126,7 +126,7 @@ function SidebarContent({ onLogout, onClose, stickyHeader = false }) {
           <SideLink to="/admin/inquiry" label="Inquiry" icon="inquiry" />
           <SideLink to="/admin/settings" label="Settings" icon="settings" />
         </div>
-
+ 
         <div className="mt-2">
           <button
             onClick={onLogout}
