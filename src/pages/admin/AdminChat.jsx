@@ -271,7 +271,7 @@ export default function AdminChat() {
                 {activeCustomer?.email || "Pick a customer from left panel"}
               </p>
             </div>
-
+<h1></h1>
             <button
               onClick={loadHistory}
               disabled={!activeCustomer}
