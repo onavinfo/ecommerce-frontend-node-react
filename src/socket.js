@@ -1,7 +1,7 @@
 // client/src/socket.js
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "https://ecommerce-backend-node-demo.netlify.app";
+const SOCKET_URL = "https://ecommerce-backend-node-demo.onrender.com";
 
 export const socket = io(SOCKET_URL, {
   autoConnect: false,           // you connect manually in component
