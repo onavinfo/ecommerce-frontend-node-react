@@ -1,9 +1,9 @@
 import axios from "axios";
-baseURL: "http://localhost:3000/api"
+baseURL: "https://ecommerce-backend-node-demo.netlify.app/api"
 
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://ecommerce-backend-node-demo.netlify.app/api",
 });
 
 API.interceptors.request.use(
